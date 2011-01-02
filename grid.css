@@ -1,5 +1,4 @@
 * {margin: 0px;padding: 0px;}
-
 .container {margin: 0px auto;width: 960px;}
 .row:after {clear: both;display: block;visibility: hidden;overflow: hidden;height: 0px !important;line-height: 0px;font-size: xx-large;content: "x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x";}
 .row {*zoom:1;}
