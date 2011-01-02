@@ -1,0 +1,96 @@
+How do I use it?
+
+First things first, you need to include the Simple Grid CSS files within the <head> tags. You can download the Simple Grid framework here.
+
+
+<head>
+<title>My Page Title</title>
+<link rel="stylesheet" href="simplegrid/grid.css" />
+<link rel="stylesheet" href="simplegrid/screen.css" />
+</head>
+grid.css is used to setup the grid's columns and rows and set the master width of the page. By default the main container will be 960px and centered in the page.
+screen.css resets page defaults that often cause conflicts among different browsers.
+After you have included the approriate CSS files you are ready to write the HTML structure of the page. Columns are each 80 pixels wide, and there is no border, margin or padding, so they fit snugly next to each other.
+
+Let's first setup the main container that will house all of our content. We need to create a <div> inside of the <body> tag with an id set to container as shown below.
+
+<body>
+<div id="container">
+
+</div>
+</body>
+Once we have setup our container div we're ready to add some columns. Columns are created by adding a <div> with the class name set to whichever width of column you want. Column are named by the number of the 12 columns they span. Therefore, the following will create a column that spans 4 columns.
+
+<div id="container">
+   <div class="col-4-12">
+
+   </div>
+</div>
+Adding another column is easy, but if you want the columns to sit nicely next to each, you must ensure that the number of columns doesn't exceed 12 or the columns will "overflow" below each other.
+
+<div id="container">
+   <div class="col-4-12">
+
+   </div>
+   <div class="col-8-12">
+
+   </div>
+</div>
+We can also nest columns inside of each other for more complex layouts.
+
+<div id="container">
+   <div class="col-8-12">
+	  <div class="col-4-12">
+
+	  </div>
+	  <div class="col-4-12">
+
+	  </div>
+   </div>
+   <div class="col-4-12">
+
+   </div>
+</div>
+Keep in mind that we MUST ensure that the total columns does not exceed 12 unless you want to create a new row.
+
+To avoid float-ing and overflow issues, you can also place columns inside of a row. Keep in mind that this will create a line-break and will clear all the float's above it. You may find situations where this is necessary, however.
+
+<div id="container">
+   <div class="row">
+	  <div class="col-3-12">
+
+	  </div>
+	  <div class="col-3-12">
+
+	  </div>
+	  <div class="col-3-12">
+
+	  </div>
+	  <div class="col-3-12">
+
+	  </div>
+   </div>
+   <div class="row">
+	  <div class="col-4-12">
+
+	  </div>
+	  <div class="col-8-12">
+
+	  </div>
+   </div>
+</div>
+As well, if needed, you can fill a column with blank space by using margins. To use a margin just add the class name approriate to how many columns you want to span inside the class attribute of the HTML element, alongside the column classname.
+
+<div id="container">
+   <div class="row">
+	  <div class="col-4-12 right-2">
+
+	  </div>
+	  <div class="col-4-12 left-2">
+
+	  </div>
+   </div>
+</div>
+You may be asking yourself why you would use margin's instead of just creating a new column. That's pretty much up to you, but it seems more representative than a column for it's purpose.
+
+I hope you find Simple Grid useful if you decide to try it out or use it in your next project. If you find any bugs or errors please let me know!
