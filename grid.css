@@ -1,4 +1,3 @@
-* {margin: 0px;padding: 0px;}
 .container {margin: 0px auto;width: 960px;}
 .row:after {clear: both;display: block;visibility: hidden;overflow: hidden;height: 0px !important;line-height: 0px;font-size: xx-large;content: "x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x";}
 .row {*zoom:1;}
@@ -16,28 +15,28 @@
 .col-11-12 {width:55em;float: left;}
 .col-12-12 {width:60em;float: left;}
 
-.left-1 {margin-left: 8.4%;}
-.left-2 {margin-left: 12.5%;}
-.left-3 {margin-left: 25%;}
-.left-4 {margin-left: 33.4%;}
-.left-5 {margin-left: 41.7%;}
-.left-6 {margin-left: 50%;}
-.left-7 {margin-left: 58.4%;}
-.left-8 {margin-left: 66.7%;}
-.left-9 {margin-left: 75%;}
-.left-10 {margin-left:83.4%;}
-.left-11 {margin-left:91.7%;}
-.left-12 {margin-left: 100%;}
+.left-1 {margin-left: 5em;}
+.left-2 {margin-left: 10em;}
+.left-3 {margin-left: 15em;}
+.left-4 {margin-left: 20em;}
+.left-5 {margin-left: 25em;}
+.left-6 {margin-left: 30em;}
+.left-7 {margin-left: 35em;}
+.left-8 {margin-left: 40em;}
+.left-9 {margin-left: 45em;}
+.left-10 {margin-left:50em;}
+.left-11 {margin-left:55em;}
+.left-12 {margin-left:60em;}
 
-.right-1 {margin-right: 8.4%;}
-.right-2 {margin-right: 16.7%;}
-.right-3 {margin-right: 25%;}
-.right-4 {margin-right: 33.4%;}
-.right-5 {margin-right: 41.7%;}
-.right-6 {margin-right: 50%;}
-.right-7 {margin-right: 58.4%;}
-.right-8 {margin-right: 66.7%;}
-.right-9 {margin-right: 75%;}
-.right-10 {margin-right:83.4%;}
-.right-11 {margin-right:91.7%;}
-.right-12 {margin-right: 100%;}
+.right-1 {margin-right: 5em;}
+.right-2 {margin-right: 10em;}
+.right-3 {margin-right: 15em;}
+.right-4 {margin-right: 20em;}
+.right-5 {margin-right: 25em;}
+.right-6 {margin-right: 30em;}
+.right-7 {margin-right: 35em;}
+.right-8 {margin-right: 40em;}
+.right-9 {margin-right: 45em;}
+.right-10 {margin-right:50em;}
+.right-11 {margin-right:55em;}
+.right-12 {margin-right:60em;}
