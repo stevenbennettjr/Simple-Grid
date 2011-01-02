@@ -3,7 +3,7 @@ How do I use it?
 First we need need to include the Simple Grid CSS files within the <head> tags. You can download the Simple Grid framework here.
 
 <head>
-<title>My Page Titled</title>
+<title>My Page Title</title>
 <link rel="stylesheet" href="simplegrid/grid.css" />
 <link rel="stylesheet" href="simplegrid/screen.css" />
 </head>
