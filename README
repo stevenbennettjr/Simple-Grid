@@ -1,6 +1,7 @@
 How do I use it?
 
-First things first, you need to include the Simple Grid CSS files within the <head> tags. You can download the Simple Grid framework here.
+First we need need to include the Simple Grid CSS files within the <head> tags. You can download the Simple Grid framework here.
+
 <head>
 <title>My Page Title</title>
 <link rel="stylesheet" href="simplegrid/grid.css" />
