@@ -4,18 +4,18 @@
 .row:after {clear: both;display: block;visibility: hidden;overflow: hidden;height: 0px !important;line-height: 0px;font-size: xx-large;content: "x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x";}
 .row {*zoom:1;}
 
-.col-1-12 {width: 8.4%;float: left;}
-.col-2-12 {width: 16.7%;float: left;}
-.col-3-12 {width: 25%;float: left;}
-.col-4-12 {width: 33.4%;float: left;}
-.col-5-12 {width: 41.7%;float: left;}
-.col-6-12 {width: 50%;float: left;}
-.col-7-12 {width: 58.4%;float: left;}
-.col-8-12 {width: 66.7%;float: left;}
-.col-9-12 {width: 75%;float: left;}
-.col-10-12 {width:83.4%;float: left;}
-.col-11-12 {width:91.7%;float: left;}
-.col-12-12 {width: 100%;float: left;}
+.col-1-12 {width: 5em;float: left;}
+.col-2-12 {width: 10em;float: left;}
+.col-3-12 {width: 15em;float: left;}
+.col-4-12 {width: 20em;float: left;}
+.col-5-12 {width: 25em;float: left;}
+.col-6-12 {width: 30em;float: left;}
+.col-7-12 {width: 35em;float: left;}
+.col-8-12 {width: 40em;float: left;}
+.col-9-12 {width: 45em;float: left;}
+.col-10-12 {width:50em;float: left;}
+.col-11-12 {width:55em;float: left;}
+.col-12-12 {width:60em;float: left;}
 
 .left-1 {margin-left: 8.4%;}
 .left-2 {margin-left: 12.5%;}
